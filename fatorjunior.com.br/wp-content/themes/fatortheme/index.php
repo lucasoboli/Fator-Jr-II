@@ -17,8 +17,6 @@
 					</div>
 					
 				</div>
-					<p><?php the_content();?></p>
-					<p class="post_info"><?php the_time('j F Y'); ?> <span> | </span> <?php the_author(); ?></p>
 				</div>
 				
 				

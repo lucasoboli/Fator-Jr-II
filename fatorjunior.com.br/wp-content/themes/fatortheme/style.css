@@ -17,7 +17,7 @@ body,html
 .ajust_body,
 .ajust_html
 {
-	margin-top: -26% !important;
+	margin-top: -35% !important;
 }
 
 .ajust_html_mobile{
@@ -172,7 +172,7 @@ section
 
 .navbar-brand
 {
-	margin-right: 10%;
+	margin-right: 8%;
 }
 
 .social
@@ -388,10 +388,6 @@ section
 	background-color: transparent;
 	color: #b38441;
 	font-size: 100%;
-}
-
-.servicos_container
-{
 }
 
 .servicos_container_box
@@ -987,6 +983,7 @@ section
 
 .post_content
 {
+	background-color:#252525;
 	padding:8px;
 	padding-bottom:0px;
 }
@@ -1410,3 +1407,97 @@ div#Servicos
 }
 
 /* END FIX NAVBAR */
+
+
+
+/* ALTERAÇÕES PARTE 2 */
+
+.servicos {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.servicos_posts h2 {
+	text-align:center;
+	color:#b38441;
+	border-radius:6px;
+	width:85%;
+	font-weight:400;
+	border:2px solid #b38441;
+	margin:auto;
+	padding:4px 1px 4px 1px;
+
+	
+}
+
+.post_content p {
+	color:#ffffff;
+}
+
+.post_content img {
+	width:100%;
+	height:auto;
+}
+
+
+.post_content ul li {
+	color:#ffffff;
+}
+
+.servicos_posts img {
+	width:100%;
+	height:auto;
+}
+
+.servicos_title {
+	color:#b38441;
+}
+
+.servicos_title_frame {
+	padding-bottom:40px;
+	padding-top:40px;
+	border: 2px solid #b38441;	
+	border-radius:4px;
+	display:flex;
+}
+
+.servicos_content_area {
+	background-color:#8a8a8a;
+}
+
+.servicos_content_text {
+	color:#ffffff;
+}
+
+#termosCondicoes:hover{
+	color:black;
+	cursor:pointer;
+}
+
+#s{
+	border:none;
+	border-bottom: 1px solid black;
+}
+
+#searchsubmit{
+	border:none;
+	background-color:black;
+}
+
+#searchsubmit:hover{
+	cursor:pointer;
+	border: 1px solid #b38441;
+	color: #b38441;
+	background-color:white;
+	transition: .5s;
+}
+
+.fa-search{
+	padding:2px;
+	color:white;
+}
+
+#searchsubmit:hover > .fa-search{
+	color: #b38441;
+	transition: .5s;
+}
+
